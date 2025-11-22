@@ -1,0 +1,44 @@
+; Ultron EA - Funded Account (Conservative Consistency)
+; Profile: FTMO/MFF/The5ers Compatible | <10% Drawdown
+; Expected Monthly: 5-15% | Challenge Pass Rate: 80-90%
+
+SymbolPrefix=
+SymbolSuffix=
+TradeEURUSD=1
+TradeXAUUSD=1
+MagicNumber=202511
+RiskPercent=0.50
+MaxLots=5.00
+MaxDailyTrades=8
+MaxDailyLoss=3.00
+MoveToBreakeven=1
+BreakevenTrigger=0.80
+UseTrailingStop=1
+TrailDistance=20
+UsePartialTP=1
+PartialTPPercent=50.00
+PartialTPRatio=2.50
+SwingLookback=12
+MinGapPips_EU=7
+MinGapPips_XAU=120
+OB_Expiry=500
+FVG_Expiry=300
+LiquidityTolerance=3
+TradeLondon=1
+TradeNY_AM=1
+TradeNY_PM=0
+UseNewsFilter=1
+NewsAvoidMin=45
+MinNewsImpact=1
+UseSMT=0
+UseCorrelation=0
+UseHTF_Bias=1
+HTF_Period=16385
+MinRR=2.50
+TargetRR=3.50
+SL_Buffer_EU=7
+SL_Buffer_XAU=25
+DrawOBs=0
+DrawFVGs=0
+DrawLiquidity=0
+VerboseLogging=0
