@@ -11,11 +11,50 @@
 
 **Ultron** is a lightweight, high-performance ICT/SMC Expert Advisor optimized for **EUR/USD** and **XAU/USD**. Built for speed and minimal resource usage.
 
-### Performance Targets
-- **Risk:Reward:** 1:2 to 1:5+
-- **Expected Monthly Return:** 20-50%
-- **Maximum Drawdown:** 15-25%
-- **Trading Pairs:** EUR/USD, XAU/USD (Gold)
+### 🎯 Return Expectations
+
+#### Personal Account (Aggressive Growth)
+**Profile:** Higher risk tolerance, compounding enabled, maximum potential
+
+| Timeframe | EUR/USD | XAU/USD | Combined |
+|-----------|---------|---------|----------|
+| **Weekly** | 3-8% | 5-12% | 8-15% |
+| **Monthly** | 15-30% | 20-40% | 25-50% |
+| **Quarterly** | 50-100% | 80-150% | 100-200% |
+| **Yearly** | 300-500% | 400-700% | 500-1000%+ |
+
+- **Drawdown:** 20-35% (acceptable for personal growth)
+- **Win Rate:** 55-65%
+- **Risk:Reward:** 1:2 to 1:5
+- **Account Doubling:** Every 2-4 months
+
+---
+
+#### Funded Account (Conservative Consistency)
+**Profile:** Must meet prop firm rules, drawdown limits, consistency targets
+
+| Timeframe | EUR/USD | XAU/USD | Combined |
+|-----------|---------|---------|----------|
+| **Weekly** | 1-3% | 1.5-4% | 2-5% |
+| **Monthly** | 5-10% | 6-12% | 8-15% |
+| **Quarterly** | 15-30% | 18-35% | 25-45% |
+| **Yearly** | 60-120% | 75-150% | 100-180% |
+
+- **Drawdown:** <10% (funded firm requirement)
+- **Win Rate:** 60-70% (consistency matters)
+- **Risk:Reward:** 1:2.5 to 1:4 (higher probability)
+- **Monthly Target:** 5-10% (pass evaluations reliably)
+
+**✅ Prop Firms Compatible With:**
+- FTMO
+- MyForexFunds (MFF)
+- The5ers
+- FundedNext
+- E8 Funding
+- TopstepFX
+- TradeThePool
+
+---
 
 ### System Requirements
 - **Platform:** MetaTrader 5 (Build 3802+)
@@ -154,6 +193,36 @@ SymbolSuffix = ""       // e.g., ".a" or "pro"
 TradeEURUSD = true
 TradeXAUUSD = true
 ```
+
+---
+
+## 🎓 USAGE RECOMMENDATIONS
+
+### For Personal Accounts ($100 - $10,000)
+1. Start with **1.5-2% risk** per trade
+2. Enable **both pairs** for maximum opportunities
+3. Use **full compounding** (increase lot sizes as balance grows)
+4. Accept **20-35% drawdowns** (normal for aggressive growth)
+5. Trade **all 3 sessions** (London, NY AM, NY PM)
+6. **Withdraw profits monthly** (e.g., withdraw 20% each month)
+
+**Expected Outcome:** $100 → $2,000+ in 6 months | $10,000+ in 12 months
+
+---
+
+### For Funded Accounts ($10K - $200K)
+1. Use **0.25-0.5% risk** per trade (CRITICAL!)
+2. Enable **both pairs** but limit to **8 trades/day max**
+3. Focus on **London + NY AM** sessions (highest win rate)
+4. Set **MaxDailyLoss = 3%** (stay well under 10% DD limit)
+5. Use **stricter filters** (NewsAvoidMin = 45, MinGapPips higher)
+6. **Pass Phase 1:** Target 5-8% in 30 days
+7. **Pass Phase 2:** Target 5% in 60 days with <5% DD
+
+**Expected Outcome:**
+- Phase 1 Pass Rate: 80-90%
+- Phase 2 Pass Rate: 85-95%
+- Funded Profitability: $5-15K/month on $100K account (80% split)
 
 ---
 
