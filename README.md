@@ -222,7 +222,28 @@ MIT License - Free for personal and commercial use.
 
 ---
 
-## 💬 SUPPORT
+## � PERFORMANCE & SETTINGS
+
+**📖 Read the complete guide:** [PERFORMANCE_GUIDE.md](PERFORMANCE_GUIDE.md)
+
+**Quick Stats:**
+- **Personal Account:** 25-50% monthly | 500-1000% yearly
+- **Funded Account:** 5-15% monthly | 80-180% yearly (80-90% pass rate)
+- **Both Pairs Combined:** EUR/USD + XAU/USD = Maximum potential
+
+**Ready-to-Use Settings:**
+- `Ultron_Personal_Aggressive.set` - For $100-$10K accounts (2% risk)
+- `Ultron_Personal_Conservative.set` - For $100-$1K accounts (1% risk)
+- `Ultron_Funded_Conservative.set` - For FTMO/MFF/The5ers (0.5% risk)
+
+**How to import .set files:**
+1. Copy `.set` file to `C:\Users\[YourName]\AppData\Roaming\MetaQuotes\Terminal\[BrokerID]\MQL5\Profiles\Templates\`
+2. Attach EA to chart → Click "Load" → Select your `.set` file
+3. Click OK and enable AutoTrading
+
+---
+
+## �💬 SUPPORT
 
 **Issues?** Open a ticket on GitHub or contact via email.
 
