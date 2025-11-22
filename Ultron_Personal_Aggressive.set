@@ -1,0 +1,44 @@
+; Ultron EA - Personal Account (Aggressive Growth)
+; Profile: $100-$10,000 | Maximum Potential | Compounding
+; Expected Monthly: 25-50% | Max Drawdown: 20-35%
+
+SymbolPrefix=
+SymbolSuffix=
+TradeEURUSD=1
+TradeXAUUSD=1
+MagicNumber=202511
+RiskPercent=2.00
+MaxLots=10.00
+MaxDailyTrades=0
+MaxDailyLoss=8.00
+MoveToBreakeven=1
+BreakevenTrigger=1.00
+UseTrailingStop=1
+TrailDistance=15
+UsePartialTP=1
+PartialTPPercent=50.00
+PartialTPRatio=2.00
+SwingLookback=10
+MinGapPips_EU=5
+MinGapPips_XAU=100
+OB_Expiry=500
+FVG_Expiry=300
+LiquidityTolerance=3
+TradeLondon=1
+TradeNY_AM=1
+TradeNY_PM=1
+UseNewsFilter=1
+NewsAvoidMin=30
+MinNewsImpact=2
+UseSMT=0
+UseCorrelation=0
+UseHTF_Bias=1
+HTF_Period=16385
+MinRR=2.00
+TargetRR=4.00
+SL_Buffer_EU=5
+SL_Buffer_XAU=20
+DrawOBs=0
+DrawFVGs=0
+DrawLiquidity=0
+VerboseLogging=0
