@@ -1,0 +1,44 @@
+; Ultron EA - Personal Account (Conservative)
+; Profile: $100-$1,000 | Lower Risk | Smaller Drawdowns
+; Expected Monthly: 10-20% | Max Drawdown: 10-15%
+
+SymbolPrefix=
+SymbolSuffix=
+TradeEURUSD=1
+TradeXAUUSD=1
+MagicNumber=202511
+RiskPercent=1.00
+MaxLots=5.00
+MaxDailyTrades=10
+MaxDailyLoss=5.00
+MoveToBreakeven=1
+BreakevenTrigger=1.00
+UseTrailingStop=1
+TrailDistance=18
+UsePartialTP=1
+PartialTPPercent=50.00
+PartialTPRatio=2.00
+SwingLookback=10
+MinGapPips_EU=6
+MinGapPips_XAU=110
+OB_Expiry=500
+FVG_Expiry=300
+LiquidityTolerance=3
+TradeLondon=1
+TradeNY_AM=1
+TradeNY_PM=1
+UseNewsFilter=1
+NewsAvoidMin=30
+MinNewsImpact=2
+UseSMT=0
+UseCorrelation=0
+UseHTF_Bias=1
+HTF_Period=16385
+MinRR=2.00
+TargetRR=3.00
+SL_Buffer_EU=6
+SL_Buffer_XAU=22
+DrawOBs=0
+DrawFVGs=0
+DrawLiquidity=0
+VerboseLogging=0
